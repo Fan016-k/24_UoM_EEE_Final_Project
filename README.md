@@ -39,3 +39,8 @@ Known Issues/Future Improvements
 3. Camera Motion: System accuracy decreases with significant camera motion.
 
 Future iterations will aim to improve real-time processing speeds, enhance robustness to different environmental conditions, and incorporate feedback mechanisms to refine tracking accuracy continuously.
+
+More Guidence on this repository:
+
+Each custom MATLAB Function in the Simulink model is stored separately in a .m and .txt file.
+The 'ComputeProjectiveTransform' and 'NormalizePoints' are entirely based on the 'fitgeotform2d' MATLAB Function from the Computer Vision Toolbox.
